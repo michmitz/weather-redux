@@ -1,5 +1,5 @@
 import reducer from './weatherReducer';
-const { setSearch } = require('../actions/weatherActions');
+const { setSearch, setLoading } = require('../actions/weatherActions');
 
 
 describe('weather reducer', () => {
@@ -17,6 +17,24 @@ describe('weather reducer', () => {
     expect(newState).toEqual({
       search: 'Portland, OR',
       loading: true,
+      weather: []
+    });
+  });
+
+  it('handles the SET_LOADING action', () => {
+    const state = {
+      search: '',
+      loading: true,
+      weather: []
+    };
+
+    const action = setLoading(false);
+
+    const newState = reducer(state, action);
+
+    expect(newState).toEqual({
+      search: '',
+      loading: false,
       weather: []
     });
   });
