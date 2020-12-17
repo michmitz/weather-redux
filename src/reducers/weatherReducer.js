@@ -1,4 +1,5 @@
-import { SET_LOADING, SET_SEARCH } from '../actions/weatherActions';
+// eslint-disable-next-line max-len
+import { SET_LOADING, SET_SEARCH, SET_WEATHER } from '../actions/weatherActions';
 
 const initialState = {
   search: '',
@@ -12,6 +13,8 @@ export default function reducer(state = initialState, action) {
       return { ...state, search: action.payload };
     case SET_LOADING:
       return { ...state, loading: action.payload };
+    case SET_WEATHER:
+      return { ...state, weather: action.payload };
     default:
       return state;
   } 

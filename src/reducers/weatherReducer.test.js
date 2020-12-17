@@ -1,5 +1,6 @@
 import reducer from './weatherReducer';
-const { setSearch, setLoading } = require('../actions/weatherActions');
+// eslint-disable-next-line max-len
+const { setSearch, setLoading, setWeather } = require('../actions/weatherActions');
 
 
 describe('weather reducer', () => {
@@ -36,6 +37,30 @@ describe('weather reducer', () => {
       search: '',
       loading: false,
       weather: []
+    });
+  });
+
+  it('handles the SET_WEATHER action', () => {
+    const state = {
+      search: '',
+      loading: true,
+      weather: []
+    };
+
+    const action = setWeather([
+      { day: 1, city: 'Portland, OR', weather: 50 },
+      { day: 2, city: 'Portland, OR', weather: 50 }
+    ]);
+
+    const newState = reducer(state, action);
+
+    expect(newState).toEqual({
+      search: '',
+      loading: true,
+      weather: [
+        { day: 1, city: 'Portland, OR', weather: 50 },
+        { day: 2, city: 'Portland, OR', weather: 50 }
+      ]
     });
   });
 
