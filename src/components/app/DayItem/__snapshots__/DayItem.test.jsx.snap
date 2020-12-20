@@ -3,11 +3,10 @@
 exports[`DayItem component renders DayItem 1`] = `
 <DocumentFragment>
   <div
+    class="dayDiv"
     data-testid="day-div"
   >
-    <h2>
-      Date: 
-    </h2>
+    <h2 />
     <h3>
       Current Temp: 
     </h3>
