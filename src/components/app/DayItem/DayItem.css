@@ -1,4 +1,7 @@
 .dayDiv {
-  border: 2px solid black;
   margin: 2em;
+}
+
+.date {
+  color: rgb(255, 127, 123);
 }
