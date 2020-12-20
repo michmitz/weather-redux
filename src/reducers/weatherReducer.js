@@ -3,7 +3,7 @@ import { SET_LOADING, SET_SEARCH, SET_WEATHER } from '../actions/weatherActions'
 
 const initialState = {
   search: '',
-  loading: true,
+  loading: false,
   weather: []
 };
   

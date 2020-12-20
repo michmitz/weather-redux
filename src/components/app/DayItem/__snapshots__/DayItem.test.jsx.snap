@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayItem component renders DayItem 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="day-div"
+  >
+    <h2>
+      Date: 
+    </h2>
+    <h3>
+      Current Temp: 
+    </h3>
+    <p>
+      Hi: 
+    </p>
+    <p>
+      Lo: 
+    </p>
+    <p>
+      Description: 
+    </p>
+  </div>
+</DocumentFragment>
+`;
