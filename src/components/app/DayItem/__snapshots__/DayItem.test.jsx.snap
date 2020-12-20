@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`User component renders User 1`] = `
+exports[`User component renders DayItem 1`] = `
 <DocumentFragment>
   <div
     data-testid="day-div"
@@ -8,6 +8,9 @@ exports[`User component renders User 1`] = `
     <h2>
       Date:
     </h2>
+    <h3>
+      Current Temp: 
+    </h3>
     <h3>
       Hi: 
     </h3>
