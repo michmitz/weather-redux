@@ -2,6 +2,7 @@
 import React from 'react';
 import DayItem from '../DayItem/DayItem';
 import { useSelector } from 'react-redux';
+import styles from '../../../styles/styles.css';
 
 const DayList = () => {
   const forecast = useSelector(state => state.weather);

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../../../styles/styles.css';
 
 const DayItem = ({ date, currentTemp, hi, lo, description }) => (
   <div data-testid="day-div">

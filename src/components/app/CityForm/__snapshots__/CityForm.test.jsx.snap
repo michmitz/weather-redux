@@ -3,13 +3,17 @@
 exports[`CityForm component renders CityForm 1`] = `
 <DocumentFragment>
   <form>
-    <label>
+    <label
+      class="cityLabel"
+    >
       Enter a City and State:
       <textarea
         placeholder="Portland, OR"
       />
     </label>
-    <button>
+    <button
+      class="submitButton"
+    >
       Submit
     </button>
   </form>
