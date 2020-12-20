@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 export const getWeather = async(search) => {
-  return fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${search}&key=${process.env.WEATHERBIT_KEY}`)
+  return fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${search}&key=${process.env.REACT_APP_WEATHERBIT_KEY}`)
     .then(res => res.json())
     .then(json => json.data.map(date => ({
       date: date.datetime,

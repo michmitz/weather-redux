@@ -6,18 +6,20 @@ exports[`DayItem component renders DayItem 1`] = `
     data-testid="day-div"
   >
     <h2>
-      Date:
+      Date: 
     </h2>
     <h3>
       Current Temp: 
     </h3>
-    <h3>
+    <p>
       Hi: 
-    </h3>
-    <h3>
+    </p>
+    <p>
       Lo: 
-    </h3>
-    <p />
+    </p>
+    <p>
+      Description: 
+    </p>
   </div>
 </DocumentFragment>
 `;
