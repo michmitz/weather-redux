@@ -1,3 +1,5 @@
+import { getWeather } from '../services/weatherApi';
+
 export const SET_SEARCH = 'SET_SEARCH';
 export const setSearch = search => ({
   type: SET_SEARCH,
@@ -15,3 +17,12 @@ export const setWeather = weather => ({
   type: SET_WEATHER,
   payload: weather
 });
+
+export const fetchWeather = (search) => dispatch => {
+  getWeather(search)
+    .then(weather => {
+      dispatch(setWeather(weather));
+    })
+    .finally(() => dispatch(setLoading(false)));
+};
+

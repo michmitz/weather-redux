@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`User component renders DayItem 1`] = `
+exports[`DayItem component renders DayItem 1`] = `
 <DocumentFragment>
   <div
     data-testid="day-div"

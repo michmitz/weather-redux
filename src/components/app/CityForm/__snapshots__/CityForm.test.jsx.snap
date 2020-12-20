@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CityForm component renders CityForm 1`] = `
+<DocumentFragment>
+  <form>
+    <label>
+      Enter a City and State:
+      <textarea
+        placeholder="Portland, OR"
+      />
+    </label>
+    <button>
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;

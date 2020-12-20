@@ -1,15 +1,15 @@
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import DayList from './DayList';
+import CityForm from './CityForm';
 import { Provider } from 'react-redux';
 import store from '../../../store';
 
-describe('DayList component', () => {
+describe('CityForm component', () => {
   afterEach(() => cleanup());
-  it('renders DayList', () => {
+  it('renders CityForm', () => {
     const { asFragment } = render(
       <Provider store={store}>
-        <DayList />
+        <CityForm />
       </Provider>
     );
     expect(asFragment()).toMatchSnapshot();

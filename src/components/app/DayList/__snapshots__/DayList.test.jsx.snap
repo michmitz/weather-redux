@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`User component renders DayList 1`] = `
+exports[`DayList component renders DayList 1`] = `
 <DocumentFragment>
   <ul />
 </DocumentFragment>

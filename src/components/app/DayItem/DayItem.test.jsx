@@ -4,7 +4,7 @@ import DayItem from './DayItem';
 import { Provider } from 'react-redux';
 import store from '../../../store';
 
-describe('User component', () => {
+describe('DayItem component', () => {
   afterEach(() => cleanup());
   it('renders DayItem', () => {
     const { asFragment } = render(
