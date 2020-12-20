@@ -2,6 +2,8 @@
 import React from 'react';
 import DayItem from '../DayItem/DayItem';
 import { useSelector } from 'react-redux';
+import styles from '../../../styles/styles.css';
+import dayListStyles from './DayList.css';
 
 const DayList = () => {
   const forecast = useSelector(state => state.weather);
@@ -12,7 +14,7 @@ const DayList = () => {
   }
 
   const dateElements = forecast.map(date => (
-    <li key={date.date}>
+    <li key={date.date} className={dayListStyles.listContainer}>
       <DayItem {...date} />
     </li>
   ));

@@ -1,0 +1,21 @@
+form {
+  display: inline-block;
+}
+
+.cityLabel {
+  color: green;
+  margin: 10px;
+}
+
+.submitButton {
+  color: green;
+}
+
+textarea {
+  width: 200px;
+  height: 20px;
+  padding: 2px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 20px;
+}

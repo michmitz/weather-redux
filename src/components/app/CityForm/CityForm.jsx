@@ -1,6 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather, setSearch } from '../../../actions/weatherActions';
+import styles from '../../../styles/styles.css';
+import formStyles from './CityForm.css';
 
 const CityForm = () => {
   const dispatch = useDispatch();
@@ -18,10 +20,10 @@ const CityForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>Enter a City and State:
+      <label className={formStyles.cityLabel}>Enter a City and State:
         <textarea onChange={handleChange} placeholder="Portland, OR"></textarea>
       </label>
-      <button>Submit</button>
+      <button className={formStyles.submitButton}>Submit</button>
     </form>
   );
 };
