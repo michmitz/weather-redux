@@ -2,8 +2,6 @@
 
 exports[`DayList component renders DayList 1`] = `
 <DocumentFragment>
-  <h1>
-    Loading...
-  </h1>
+  <ul />
 </DocumentFragment>
 `;

@@ -19,6 +19,8 @@ export const setWeather = weather => ({
 });
 
 export const fetchWeather = (search) => dispatch => {
+  dispatch(setLoading(true));
+  
   getWeather(search)
     .then(weather => {
       dispatch(setWeather(weather));
