@@ -10,8 +10,13 @@ main {
   padding: 2em;
 }
 
-h3 {
+h2 {
+  font-size: 2em;
   font-family: 'Gamja Flower', cursive;
+}
+
+h3 {
+  font-size: .9em;
 }
 
 header {
