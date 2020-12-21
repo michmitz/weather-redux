@@ -10,6 +10,8 @@
 }
 
 main {
+  font-family: var(--bfont);
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +29,7 @@ h2 {
 h3 {
   font: var(--bfont);
   font-size: .9em;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 header {
