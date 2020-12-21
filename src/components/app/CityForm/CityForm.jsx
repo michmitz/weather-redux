@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchWeather, setSearch } from '../../../actions/weatherActions';
@@ -20,9 +21,8 @@ const CityForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label className={formStyles.cityLabel}>Enter a City and State:
-        <textarea onChange={handleChange} placeholder="Portland, OR"></textarea>
-      </label>
+      <input type="text" name="name" className={formStyles.cityField} id="nme" required autoComplete="off" onChange={handleChange} />
+      <label htmlFor="nme"><span>Enter a city and state</span></label>
       <button className={formStyles.submitButton}>Submit</button>
     </form>
   );
