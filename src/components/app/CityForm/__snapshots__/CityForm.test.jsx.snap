@@ -3,13 +3,20 @@
 exports[`CityForm component renders CityForm 1`] = `
 <DocumentFragment>
   <form>
+    <input
+      autocomplete="off"
+      class="cityField"
+      id="nme"
+      name="name"
+      required=""
+      type="text"
+    />
     <label
-      class="cityLabel"
+      for="nme"
     >
-      Enter a City and State:
-      <textarea
-        placeholder="Portland, OR"
-      />
+      <span>
+        Enter a city and state
+      </span>
     </label>
     <button
       class="submitButton"
