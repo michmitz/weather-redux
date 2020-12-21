@@ -21,7 +21,7 @@ exports[`CityForm component renders CityForm 1`] = `
     <button
       class="submitButton"
     >
-      Submit
+      submit
     </button>
   </form>
 </DocumentFragment>
