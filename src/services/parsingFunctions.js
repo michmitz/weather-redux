@@ -8,6 +8,7 @@ export const convertToFahrenheit = (celsius) => {
 export const parseDate = (date) => {
   const options = { month: 'short' };
   const month = (new Intl.DateTimeFormat('en-US', options).format(new Date(date)));
+
   const dateArr = date.split('-');
   const day = Number(dateArr[2]);
   
