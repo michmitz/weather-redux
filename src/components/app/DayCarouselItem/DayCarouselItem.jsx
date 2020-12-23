@@ -9,7 +9,8 @@ const DayCarouselItem = ({ date, currentTemp, hi, lo, description }) => (
     <h3 className={dayCarouselItemStyles.currentTemp}>Current Temp: {currentTemp}˚</h3>
     <p>Hi: {hi}˚</p>
     <p>Lo: {lo}˚</p>
-    <p>Description: {description}</p>
+    <p>{description}</p>
+    <img src={'/assets/partly-cloudy-day.gif'} alt="partly cloudy" />
   </div> 
 );
 

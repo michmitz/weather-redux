@@ -17,11 +17,10 @@ const DayCarousel = () => {
       <DayCarouselItem {...date} />
     </div>
   ));
-
   
   return (
     <div className={dayCarouselStyles.container}>
-      <ReactCardCarousel autoplay={true} autoplay_speed={6000}>
+      <ReactCardCarousel autoplay={true} autoplay_speed={7000} spread={'wide'}>
         {dateElements}
       </ReactCardCarousel>
     </div>
