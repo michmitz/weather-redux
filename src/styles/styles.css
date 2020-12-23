@@ -3,7 +3,9 @@
 
 :root {
   --color1: rgb(255, 127, 123);
-  --color2: rgba(255, 171, 15, 0.801);
+  --color2: rgba(255, 171, 15);
+  --color3: rgb(255, 211, 91);
+  --color4: rgb(255, 232, 167);
 
   --hfont: 'Gamja Flower', cursive;
   --bfont: 'Noto Sans JP', sans-serif;
@@ -19,17 +21,6 @@ main {
   text-align: center;
   margin: 1em;
   padding: 2em;
-}
-
-h2 {
-  font-size: 2em;
-  font-family: var(--hfont);
-}
-
-h3 {
-  font: var(--bfont);
-  font-size: .9em;
-  font-weight: 500;
 }
 
 header {
