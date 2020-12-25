@@ -3,7 +3,17 @@
 
 :root {
   --color1: rgb(255, 127, 123);
-  --color2: rgba(255, 171, 15, 0.801);
+  --color2: rgba(255, 171, 15);
+  --color3: rgb(255, 211, 91);
+  --color4: rgb(255, 232, 167);
+
+  --updatedColor1: rgb(192, 207, 231);
+  --updatedColor2: rgb(166, 176, 208);
+  --updatedColor3: rgb(112, 218, 230);
+  --updatedColor4: rgb(239, 231, 186);
+  --updatedColor5: rgb(249, 197, 163);
+  --updatedColor6: rgb(99, 123, 174);
+
 
   --hfont: 'Gamja Flower', cursive;
   --bfont: 'Noto Sans JP', sans-serif;
@@ -20,22 +30,3 @@ main {
   margin: 1em;
   padding: 2em;
 }
-
-h2 {
-  font-size: 2em;
-  font-family: var(--hfont);
-}
-
-h3 {
-  font: var(--bfont);
-  font-size: .9em;
-  font-weight: 500;
-}
-
-header {
-  font-family: var(--hfont);
-  font-size: 5em;
-  color: var(--color1);
-}
-
-

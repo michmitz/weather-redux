@@ -9,7 +9,8 @@ export const getWeather = async(search) => {
       currentTemp: convertToFahrenheit(date.temp),
       hi: convertToFahrenheit(date.high_temp),
       lo: convertToFahrenheit(date.low_temp),
-      description: date.weather.description
+      description: date.weather.description,
+      imgCode: date.weather.code
     })));
 };
 

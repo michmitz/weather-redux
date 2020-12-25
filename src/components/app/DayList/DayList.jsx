@@ -2,7 +2,6 @@
 import React from 'react';
 import DayItem from '../DayItem/DayItem';
 import { useSelector } from 'react-redux';
-import styles from '../../../styles/styles.css';
 import dayListStyles from './DayList.css';
 
 const DayList = () => {

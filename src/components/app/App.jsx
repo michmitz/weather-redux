@@ -1,6 +1,8 @@
+/* eslint-disable max-len */
 import React from 'react';
-import DayList from './DayList/DayList';
+import styles from '../../styles/styles.css';
 import CityForm from './CityForm/CityForm';
+import DayCarousel from './DayCarousel/DayCarousel';
 import Header from './Header/Header';
 
 export default function App() {
@@ -8,7 +10,7 @@ export default function App() {
     <main>
       <Header />
       <CityForm />
-      <DayList />
+      <DayCarousel />
     </main>
   );
 }
