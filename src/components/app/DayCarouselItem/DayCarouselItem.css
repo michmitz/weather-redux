@@ -1,5 +1,5 @@
 .date {
-  color: var(--color2);
+  color: var(--updatedColor3);
   font-size: 2.7em;
   font-family: var(--hfont);
 }
@@ -14,3 +14,10 @@ img {
   font-size: .9em;
   font-weight: 500;
 }
+
+/* .dayDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */

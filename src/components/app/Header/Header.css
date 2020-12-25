@@ -1,3 +1,10 @@
 .gif {
   padding-bottom: 8%;
 }
+
+header {
+  font-family: var(--hfont);
+  font-size: 5em;
+  color: var(--updatedColor6);
+  position: relative;
+}

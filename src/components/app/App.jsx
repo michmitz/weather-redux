@@ -1,8 +1,9 @@
+/* eslint-disable max-len */
 import React from 'react';
-import DayList from './DayList/DayList';
+import styles from '../../styles/styles.css';
 import CityForm from './CityForm/CityForm';
-import Header from './Header/Header';
 import DayCarousel from './DayCarousel/DayCarousel';
+import Header from './Header/Header';
 
 export default function App() {
   return (
