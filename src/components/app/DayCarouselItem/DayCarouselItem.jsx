@@ -14,7 +14,7 @@ const DayCarouselItem = ({ date, currentTemp, hi, lo, description, imgCode }) =>
       <p>Hi: {hi}˚</p>
       <p>Lo: {lo}˚</p>
       <p>{description}</p>
-      <img src={`/assets/${imgSrc}`} alt="partly cloudy" />
+      <img src={`/assets/${imgSrc}`} alt={imgSrc} />
     </div>
   );
 };
