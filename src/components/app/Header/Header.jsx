@@ -5,7 +5,9 @@ import headerStyles from './Header.css';
 export default function Header() {
   return (
     <header>
+      <h1>
       Forecast...
+      </h1>
     </header>
   );
 }
