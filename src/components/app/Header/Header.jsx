@@ -6,10 +6,9 @@ export default function Header() {
   return (
     <header>
       Forecast...
-      <div id="heart">
-        <img src={'/assets/rainbow.gif'} />
-      </div>
     </header>
   );
 }
+
+
 

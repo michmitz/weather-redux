@@ -1,7 +1,8 @@
 import React from 'react';
 import background from '../styles/auroraBackground.css';
 import DayCarousel from '../components/app/DayCarousel/DayCarousel';
-import HeaderForm from './HeaderForm';
+import CityForm from '../components/app/CityForm/CityForm';
+import Header from '../components/app/Header/Header';
 
 export default function BackgroundContainer() {
   return (
@@ -9,7 +10,8 @@ export default function BackgroundContainer() {
       <div className={background.customBackground}></div>
       <div className={background.auroralStars}></div>
       <div className={background.componentContainer}>
-        <HeaderForm />
+        <Header />
+        <CityForm />
         <DayCarousel />
       </div>
     </div>
