@@ -11,7 +11,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  top: 20%;
+  top: 200vh;
   font-family: var(--bfont);
   font-weight: 300;
   display: flex;
@@ -21,13 +21,14 @@ body {
   text-align: center;
   margin: 1em;
   padding: 2em;
+  z-index: 5;
 }
 
 .backgroundContainer {
   width: 100vw;
-  height: 200vh;
+  height: 350vh;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 @-webkit-keyframes aura {

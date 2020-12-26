@@ -5,11 +5,15 @@ import headerStyles from './Header.css';
 export default function Header() {
   return (
     <header>
-      Forecast...
-      <div id="heart">
-        <img src={'/assets/rainbow.gif'} />
-      </div>
+      <h1>
+      Forecast
+      </h1>
+      <p className={headerStyles.dot}>
+        ...
+      </p>
     </header>
   );
 }
+
+
 
