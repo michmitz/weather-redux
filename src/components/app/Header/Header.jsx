@@ -7,8 +7,9 @@ export default function Header() {
     <header>
       Forecast...
       <div id="heart">
-        <iframe src="https://giphy.com/embed/1AeRHdZ17pvIiWYleY" frameBorder="0" className={headerStyles.gif} allowFullScreen></iframe>
+        <img src={'/assets/rainbow.gif'} />
       </div>
     </header>
   );
 }
+
