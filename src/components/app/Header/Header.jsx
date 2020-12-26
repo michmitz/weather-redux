@@ -6,8 +6,11 @@ export default function Header() {
   return (
     <header>
       <h1>
-      Forecast...
+      Forecast
       </h1>
+      <p className={headerStyles.dot}>
+        ...
+      </p>
     </header>
   );
 }

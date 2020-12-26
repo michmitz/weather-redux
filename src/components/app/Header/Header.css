@@ -18,3 +18,27 @@ h1 {
   z-index: 3;
 }
 
+@-webkit-keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.dot {
+  -webkit-animation: blink 5s infinite;
+  animation: blink 5s infinite;
+  font-family: var(--hfont);
+  color: var(--updatedColor6);
+  font-size: 3.5em;
+  margin-top: 0;
+  left: 57%;
+  top: 1%;
+  position: absolute;
+}
+
+
+

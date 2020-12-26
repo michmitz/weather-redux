@@ -115,6 +115,7 @@ input.cityField + label > span {
 }
 
 form {
+  padding-top: 0;
   z-index: 1;
 }
 
@@ -122,7 +123,7 @@ form {
   display: flex;
   flex-direction: column;
   background: rgb(255, 255, 255);
-  padding-left: 50px;
+  padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
   border: 5px var(--updatedColor1) ridge;
