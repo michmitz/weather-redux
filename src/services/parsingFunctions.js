@@ -36,3 +36,15 @@ export const parseDate = (dateString) => {
   return result;
 };
 
+export const currentTempDisplay = (dateString, currentTemp) => {
+  const parsedDate = new Date(dateString);
+  const date = parsedDate.getDate();
+
+  const todayLong = new Date();
+  const today = todayLong.getDate();
+
+  if(today !== date) {
+    return false;
+  } else return `Current Temp: ${currentTemp}°`;
+
+};
