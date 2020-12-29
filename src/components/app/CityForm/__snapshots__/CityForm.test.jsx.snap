@@ -2,27 +2,38 @@
 
 exports[`CityForm component renders CityForm 1`] = `
 <DocumentFragment>
-  <form>
-    <input
-      autocomplete="off"
-      class="cityField"
-      id="nme"
-      name="name"
-      required=""
-      type="text"
-    />
-    <label
-      for="nme"
+  <div
+    class="container"
+  >
+    <div
+      id="heart"
     >
-      <span>
-        Enter a city and state
-      </span>
-    </label>
-    <button
-      class="submitButton"
-    >
-      submit
-    </button>
-  </form>
+      <img
+        src="/assets/rainbow.gif"
+      />
+    </div>
+    <form>
+      <input
+        autocomplete="off"
+        class="cityField"
+        id="nme"
+        name="name"
+        required=""
+        type="text"
+      />
+      <label
+        for="nme"
+      >
+        <span>
+          Enter a city and state
+        </span>
+      </label>
+      <button
+        class="submitButton"
+      >
+        submit
+      </button>
+    </form>
+  </div>
 </DocumentFragment>
 `;

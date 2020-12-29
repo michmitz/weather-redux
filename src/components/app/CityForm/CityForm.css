@@ -115,5 +115,24 @@ input.cityField + label > span {
 }
 
 form {
+  padding-top: 0;
   z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  border: 4px var(--updatedColor1) ridge;
+  position: relative;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+
+.container:hover {
+  border-radius: 5% 5% 5% 5% / 5% 5% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
 }

@@ -10,12 +10,15 @@
 }
 
 .card {
-  height: 450px;
+  line-height: 1;
+  height: 400px;
   width: 350px;
+  border: 4px var(--updatedColor1) ridge;
+  border-radius: 20px;
   text-align: center;
-  background: white;
-  color: "#FFF";
+  background: rgba(255, 255, 255, 1);
   box-sizing: border-box;
+  margin: 0;
 }
 
 .loading {
@@ -24,5 +27,4 @@
   font-size: 4em;
   color: var(--updatedColor2);
 }
-
 
