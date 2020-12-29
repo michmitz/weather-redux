@@ -13,7 +13,7 @@ export const parseDate = (dateString) => {
     'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 
   const month = monthNames[parsedDate.getMonth()];
-  const day = parsedDate.getDate();
+  const day = parsedDate.getUTCDate();
   
   const getOrdinalNum = (day) => {
     let selector;
