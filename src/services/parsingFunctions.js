@@ -1,17 +1,19 @@
 /* eslint-disable max-len */
+
 export const convertToFahrenheit = (celsius) => {
   const fahrenheit = celsius * 9 / 5 + 32;
 
   return Math.floor(fahrenheit);
 };
 
-export const parseDate = (date) => {
-  const options = { month: 'short' };
-  const newDate = new Date(date);
-  const month = (new Intl.DateTimeFormat('en-US', options).format(newDate));
+export const parseDate = (dateString) => {
+  const parsedDate = new Date(dateString);
 
-  const dateArr = date.split('-');
-  const day = Number(dateArr[2]);
+  const monthNames = ['Jan', 'Feb', 'March', 'April', 'May', 'June',
+    'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+
+  const month = monthNames[parsedDate.getMonth()];
+  const day = parsedDate.getDate();
   
   const getOrdinalNum = (day) => {
     let selector;
@@ -33,3 +35,4 @@ export const parseDate = (date) => {
 
   return result;
 };
+
