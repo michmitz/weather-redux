@@ -38,10 +38,10 @@ export const parseDate = (dateString) => {
 
 export const currentTempDisplay = (dateString, currentTemp) => {
   const parsedDate = new Date(dateString);
-  const date = parsedDate.getDate();
+  const date = parsedDate.getUTCDate();
 
   const todayLong = new Date();
-  const today = todayLong.getDate();
+  const today = todayLong.getUTCDate();
 
   if(today !== date) {
     return false;
