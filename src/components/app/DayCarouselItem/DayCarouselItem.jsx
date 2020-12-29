@@ -10,7 +10,7 @@ const DayCarouselItem = ({ date, currentTemp, hi, lo, description, imgCode }) =>
   return (
     <div className={dayCarouselItemStyles.dayDiv} data-testid="day-div">
       <h2 className={dayCarouselItemStyles.date}>{date}</h2>
-      <h3 className={dayCarouselItemStyles.currentTemp}>{currentTemp}</h3>
+      {/* <h3 className={dayCarouselItemStyles.currentTemp}>{currentTemp}</h3> */}
       <p>Hi: {hi}˚</p>
       <p>Lo: {lo}˚</p>
       <p>{description}</p>
