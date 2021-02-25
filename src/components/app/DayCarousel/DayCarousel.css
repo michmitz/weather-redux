@@ -6,25 +6,28 @@
   flex: 1;
   justify-content: center;
   align-items: center;
-  background: var(--color3);
 }
 
 .card {
   line-height: 1;
   height: 400px;
   width: 350px;
-  border: 4px var(--updatedColor1) ridge;
-  border-radius: 20px;
+  border: 5px var(--updatedColor6) solid;
   text-align: center;
   background: rgba(255, 255, 255, 1);
   box-sizing: border-box;
-  margin: 0;
+  box-shadow: 0 4px 4px 0 rgba(73, 73, 73, 0.25);
 }
 
 .loading {
+  margin-top: 150px;
   font-family: var(--hfont);
   font-weight: 900;
-  font-size: 4em;
+  font-size: 2em;
+  background: white;
+  border: solid 5px var(--updatedColor5);
+  text-align: center;
+  padding: 2%;
   color: var(--updatedColor2);
 }
 
