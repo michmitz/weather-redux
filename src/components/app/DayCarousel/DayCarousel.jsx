@@ -9,7 +9,7 @@ const DayCarousel = () => {
   const loading = useSelector(state => state.loading);
 
   if(loading) {
-    return <h1 className={dayCarouselStyles.loading}>Loading...</h1>;
+    return <h1 className={dayCarouselStyles.loading}>i'm loading!</h1>;
   }
 
   const dateElements = forecast.map(date => (

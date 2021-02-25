@@ -6,8 +6,9 @@
   color: #fff;
   cursor: pointer;
   margin: 20px;
+  padding-bottom: 4px;
   height: 30px;
-  text-align:center;
+  text-align: center;
   border: none;
   background-size: 300% 100%;
 
@@ -16,8 +17,8 @@
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 
-  background-image: linear-gradient(to right, #81a9ff, #ffc1ff, #adc3ff, #ffd588);
-  box-shadow: 0 4px 8px 0 rgba(73, 73, 73, 0.25);
+  background-image: linear-gradient(to right, #81a9ff, #ffc1ff, #adc3ff);
+  box-shadow: 0 4px 4px 0 rgba(73, 73, 73, 0.25);
 }
 
 .submitButton:hover {
@@ -122,13 +123,14 @@ form {
 .container {
   display: flex;
   flex-direction: column;
+  width: 100%;
   background: rgb(255, 255, 255);
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 20px;
-  border: 4px var(--updatedColor1) ridge;
+  border: 5px var(--updatedColor6) solid;
   position: relative;
-  box-shadow: 20px 20px rgba(0,0,0,.15);
+  box-shadow: 15px 15px rgba(0,0,0,.15);
   transition: all .4s ease;
 }
 

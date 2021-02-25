@@ -6,11 +6,8 @@ export default function Header() {
   return (
     <header>
       <h1>
-      Forecast
+      check out the weather!
       </h1>
-      <p className={headerStyles.dot}>
-        ...
-      </p>
     </header>
   );
 }
