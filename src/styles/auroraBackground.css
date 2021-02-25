@@ -7,26 +7,9 @@ body {
   padding: 0;
 }
 
-.componentContainer {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 200vh;
-  font-family: var(--bfont);
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 1em;
-  padding: 2em;
-  z-index: 5;
-}
-
 .backgroundContainer {
   width: 100vw;
-  height: 350vh;
+  height: 200vh;
   overflow: hidden;
   position: absolute;
 }
@@ -167,6 +150,6 @@ body {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
-  background: -webkit-linear-gradient(135deg, rgba(235, 167, 181, 0.308) 20%, rgba(111, 125, 146, 0.3) 70%), -webkit-linear-gradient(80deg, #c0a9a5 7%, #b8ba6f 20%, #ebcad1 40%, #95a9c7 60%);
-  background: linear-gradient(-45deg, rgba(237, 124, 148, 0.3) 20%, rgba(109, 139, 184, 0.3) 70%), linear-gradient(10deg, #916b63 7%, #b8ba6f 20%, #e9cad0 40%, #ffffff 60%);
+          background: rgb(206,174,238);
+      background: linear-gradient(180deg, rgb(176, 125, 228) 0%, rgba(64,217,240,0.8757878151260504) 100%);
 }
