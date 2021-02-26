@@ -10,6 +10,8 @@ export default function BackgroundContainer() {
     <div className={background.backgroundContainer}>
       <div className={background.customBackground}></div>
       <div className={background.auroralStars}></div>
+      <div className={background.auroralStarsBlinking}></div>
+      <div className={background.auroralStarsBlinkingBig}></div>
       <div className={styles.componentContainer}>
         <Header />
         <div className={styles.contentContainer}>
