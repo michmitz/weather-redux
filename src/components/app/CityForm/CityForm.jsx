@@ -26,7 +26,7 @@ const CityForm = () => {
       </div>
       <form onSubmit={handleSubmit}>
         <input type="text" name="name" className={formStyles.cityField} id="nme" required autoComplete="off" onChange={handleChange} />
-        <label htmlFor="nme"><span>Enter a city and state</span></label>
+        <label htmlFor="nme"><span>Enter a city and state...</span></label>
         <button className={formStyles.submitButton}>submit</button>
       </form>
     </div>

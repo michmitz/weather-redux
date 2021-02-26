@@ -1,11 +1,11 @@
 /* eslint-disable max-len */
 import React from 'react';
-import BackgroundContainer from '../../containers/BackgroundContainer';
+import MoonCalendarContainer from '../../containers/MoonCalendarContainer';
 
 export default function App() {
   return (
     <main>
-      <BackgroundContainer />
+      <MoonCalendarContainer />
     </main>
   );
 }

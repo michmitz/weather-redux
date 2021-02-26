@@ -25,7 +25,7 @@ exports[`CityForm component renders CityForm 1`] = `
         for="nme"
       >
         <span>
-          Enter a city and state
+          Enter a city and state...
         </span>
       </label>
       <button
