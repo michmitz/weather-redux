@@ -10,7 +10,8 @@ export const getWeather = async(search) => {
       hi: date.high_temp,
       lo: date.low_temp,
       description: date.weather.description,
-      imgCode: date.weather.code
+      imgCode: date.weather.code,
+      moonPhase: date.moon_phase
     })));
 };
 

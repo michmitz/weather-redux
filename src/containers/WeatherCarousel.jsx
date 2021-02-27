@@ -1,7 +1,8 @@
 /* eslint-disable max-len */
 import React from 'react';
 import background from '../styles/auroraBackground.css';
-import MoonPhaseCarousel from '../components/app/MoonPhaseCarousel/MoonPhaseCarousel';
+import DayCarousel from '../components/app/DayCarousel/DayCarousel';
+import CityForm from '../components/app/CityForm/CityForm';
 import Header from '../components/app/Header/Header';
 import styles from '../styles/styles.css';
 
@@ -15,7 +16,8 @@ export default function MoonCalendarContainer() {
       <div className={styles.componentContainer}>
         <Header />
         <div className={styles.contentContainer}>
-          <MoonPhaseCarousel />
+          <CityForm />
+          <DayCarousel />
         </div>
       </div>
     </div>
