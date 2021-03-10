@@ -64,6 +64,6 @@ body {
   top: -50%;
   width: 200%;
   height: 200%;
-  background: rgb(206,174,238);
-  background: linear-gradient(180deg, rgb(176, 125, 228) 0%, rgba(64,217,240,0.8757878151260504) 100%);
+  background: rgb(238, 200, 174);
+  background: linear-gradient(180deg, rgb(201, 194, 209) 0%, rgba(64,217,240,0.8757878151260504) 100%);
 }

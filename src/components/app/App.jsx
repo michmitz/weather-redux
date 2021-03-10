@@ -1,12 +1,12 @@
 /* eslint-disable max-len */
 import React from 'react';
-import BackgroundContainer from '../../containers/BackgroundContainer';
+import ToggleTheme from '../../containers/Toggle';
 
 export default function App() {
   return (
-    <main>
-      <BackgroundContainer />
-    </main>
+    <>
+      <ToggleTheme />
+    </>
   );
 }
 

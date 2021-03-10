@@ -52,6 +52,7 @@ input:focus {
 input.cityField {
   font-size: 1.9em;
   font-weight: 100;
+  color: var(--updatedColor6);
   border-radius: 2px;
   margin: 0;
   border: none;
@@ -69,7 +70,8 @@ input.cityField + label {
   padding: 0;
   margin: 0;
   width: 10%;
-  border-top: 1px solid var(--color1);
+  cursor: pointer;
+  border-top: 1px solid var(--updatedColor6);
   -webkit-transition: width 1s ease;
   transition: width 0.4s ease;
   height: 0px;
@@ -90,12 +92,12 @@ input.cityField:valid + label > span {
   top: -90px;
   font-size: .9em;
   font-weight: 100;
-  color: #333;
+  color: var(--updatedColor6);
 }
 
 
 input.cityField:valid + label {
-  border-color: var(--color2);
+  border-color: var(--updatedColor5);
 }
 
 input.cityField:invalid {
@@ -106,7 +108,7 @@ input.cityField + label > span {
   font-weight: 100;
   margin: 0px;
   position: absolute;
-  color: #000000;
+  color: var(--updatedColor6);
   font-size: 1.2em;
   top: -45px;
   left: 0px;
