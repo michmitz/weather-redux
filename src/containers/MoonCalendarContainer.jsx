@@ -13,7 +13,6 @@ export default function MoonCalendarContainer() {
       <div className={background.auroralStarsBlinking}></div>
       <div className={background.auroralStarsBlinkingBig}></div>
       <div className={styles.componentContainer}>
-        <Header />
         <div className={styles.contentContainer}>
           <MoonPhaseCarousel />
         </div>
