@@ -18,7 +18,7 @@ const MoonCarouselItem = ({ dateToDisplay, moonPhase }) => {
 
 MoonCarouselItem.propTypes = {
   dateToDisplay: PropTypes.object.isRequired,
-  moonPhase: PropTypes.number.isRequired
+  moonPhase: PropTypes.string.isRequired
 };
 
 export default MoonCarouselItem;

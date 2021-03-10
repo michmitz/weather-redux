@@ -11,14 +11,17 @@ export default function Header({ chosenTheme, onChange }) {
 
   return (
     <header>
-      <h1>
-        {chosenTheme === 'weather' ? 'Weather!' : 'Upcoming moon phases'}
-      </h1>
+      <div className={headerStyles.themeContainer}>
+        <h1>
+          {chosenTheme === 'weather' ? 'weather!' : 'upcoming moon phases'}
+        </h1>
 
-      <select onChange={handleThemeChange} value={chosenTheme}>
-        <option key="weather" value="weather">weather</option>
-        <option key="moon" value="moon">moon phases</option>
-      </select>
+        {
+          chosenTheme === 'weather' ? <button className={headerStyles.weatherButton} value="moon" onClick={handleThemeChange}>view moon phases</button>
+            : <button className={headerStyles.moonButton} value="weather" onClick={handleThemeChange}>view weather</button>
+        }
+        
+      </div>
 
     </header>
   );

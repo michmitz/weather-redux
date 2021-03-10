@@ -6,7 +6,6 @@ const day_of_week = require('date-and-time/plugin/day-of-week');
 date.plugin(ordinal);
 date.plugin(day_of_week);
 
-
 export const formatDateForWeatherDisplay = day => {
   const reformattedDay = new Date(`${day} 00:00`);
 

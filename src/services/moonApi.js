@@ -13,6 +13,7 @@ function createLunarMonth(today) {
 
   do{
     days++;
+    console.log(dateArr);
     dateArr.push(date.addDays(today, days));
   } while(days <= 29);
 
@@ -94,11 +95,12 @@ function formatForMoonPhase(time) {
 export const getPhasesForMonth = () => {
   const today = new Date();
   const calendar = createLunarMonth(today);
-  const moonPhases = []; 
+  const moonPhases = [];
 
   calendar.forEach(date => {
     const formattedTime = formatForMoonPhase(date);
     const dateToDisplay = formatDateForDisplay(date);
+    console.log('DATE TO DISPLAY', dateToDisplay);
     const moonPhase = getMoonPhase(formattedTime.day, formattedTime.month, formattedTime.year);
 
     moonPhases.push({ dateToDisplay, moonPhase });
@@ -106,7 +108,7 @@ export const getPhasesForMonth = () => {
 
   return moonPhases;
 };
- 
+
 
 
 

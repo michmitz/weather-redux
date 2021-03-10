@@ -7,7 +7,7 @@ import styles from '../styles/styles.css';
 
 export default function MoonCalendarContainer() {
   return (
-    <div className={background.backgroundContainer}>
+    <div className={`${background.backgroundContainer} ${styles.fadeInAndOut}`}>
       <div className={background.customBackground}></div>
       <div className={background.auroralStars}></div>
       <div className={background.auroralStarsBlinking}></div>
